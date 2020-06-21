@@ -15,7 +15,7 @@ jobs:
             dockerfile: jumpscale/install/Dockerfile
             push: false
             tags: test
-          run: | 
+        - run: | 
             apt-get update
             apt-get install curl -y 
             docker save threefoldtech/js-ng:test -o js-ng-test.tar
