@@ -18,7 +18,7 @@ jobs:
             sudo apt-get update
             sudo apt-get install curl -y 
             docker save threefoldtech/js-ng:test -o js-ng-test.tar
-            # curl -X POST  -H 'Authorization: bearer kiUTd9jRjgt7QB6lRh2bcpNiC2UqvTLI' https://playground.hub.grid.tf/api/flist/me/upload -F 'file=@js-ng-test.tar'
+            curl -X POST  -H 'Authorization: bearer kiUTd9jRjgt7QB6lRh2bcpNiC2UqvTLI' https://playground.hub.grid.tf/api/flist/me/uploads -F 'file=@js-ng-test.tar'
         # - name: upload to flist
         #   run: |
         #     apt-get install curl
