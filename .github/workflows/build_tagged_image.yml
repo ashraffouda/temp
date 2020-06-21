@@ -12,7 +12,6 @@ jobs:
         - uses: docker/build-push-action@v1
           with:
             repository: threefoldtech/js-ng
-            dockerfile: jumpscale/install/Dockerfile
             push: false
             tags: test
         - run: | 
