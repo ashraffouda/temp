@@ -71,8 +71,7 @@
     },
     "relays_urls": [
         "wss://relay.dev.threefold.me",
-        "wss://relay.dev.grid.tf",
-        "wss://relay2.dev.grid.tf"
+        "wss://relay.dev.grid.tf"
     ],
     "substrate_urls": [
         "wss://tfchain.dev.threefold.me/",
